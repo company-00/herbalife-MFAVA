@@ -3,7 +3,7 @@
 /* ============================= */
 
 // Fecha fija: 5:30 PM México
-const endTime = new Date("2026-02-24T18:20:00-06:00").getTime();
+const endTime = new Date("2026-02-24T17:41:00-06:00").getTime();
 
 // Número de WhatsApp (México sin +)
 const phoneNumber = "525574833071";
@@ -79,3 +79,4 @@ const timer = setInterval(function () {
 
 
 }, 1000);
+
