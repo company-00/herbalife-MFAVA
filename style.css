@@ -50,6 +50,7 @@ header p {
     border-radius: 30px;
     font-weight: bold;
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    text-align: center;
 }
 
 /* ================= PROMOCIONES ================= */
@@ -136,6 +137,11 @@ button:hover {
     padding: 30px;
     position: relative;
     animation: zoomIn 0.3s ease;
+}
+
+.modal-content h2 {
+    font-size: clamp(14px, 4.5vw, 22px);
+    white-space: nowrap;
 }
 
 @keyframes zoomIn {
