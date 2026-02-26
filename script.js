@@ -3,10 +3,10 @@
 /* ============================= */
 
 // Hora de inicio (México -6)
-const startTime = new Date("2026-02-26T13:30:00-06:00").getTime();
+const startTime = new Date("2026-02-27T06:00:00-06:00").getTime();
 
 // Hora de finalización
-const endTime = new Date("2026-02-26T15:30:00-06:00").getTime();
+const endTime = new Date("2026-02-26T23:59:59-06:00").getTime();
 
 // Número de WhatsApp (México sin +)
 const phoneNumber = "525539539196";
@@ -27,9 +27,9 @@ function openModal(modalId) {
        let message = "Hola MFAVA-CLUB!💚 me interesa la Promo Breakfast en $125 MXN\n" +
                   "- Aloe\n" +
                   "- Té\n" +
-                  "- Malteada de sabor: (escoge sabor disponible y borra este texto).\n" +
-                  "- Wafle con: platano o manzana (escoge uno y borra este texto).\n" +
-                  "- SandWafle con todo. (especifica si quieres quitar algún ingrediente y borra este texto).";
+                  "- Malteada de sabor:(Escribe el sabor disponible a elegir aquí).\n" +
+                  "- Wafle con: (Escribe la fruta disponible a elegir aquí).\n" +
+                  "- SandWafle con todo. (¿Quieres quitar un ingreidente? Escribe aquí).";
 
     }
 
