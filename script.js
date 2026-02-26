@@ -3,7 +3,7 @@
 /* ============================= */
 
 // Hora de inicio (México -6)
-const startTime = new Date("2026-02-26T14:29:00-06:00").getTime();
+const startTime = new Date("2026-02-26T14:55:00-06:00").getTime();
 
 // Hora de finalización
 const endTime = new Date("2026-02-26T23:59:59-06:00").getTime();
@@ -24,7 +24,7 @@ function openModal(modalId) {
 
     if (modalId === "modal1") {
         message = "Hola MFAVA-CLUB! Me interesa la Promo Breakfast en $125 MXN\n" +
-                  "- Aloe\n" +
+                  "\n- Aloe\n" +
                   "- Té\n" +
                   "- Malteada de sabor: (Escribe el sabor disponible a elegir aquí).\n" +
                   "- Wafle con: (Escribe la fruta disponible a elegir aquí).\n" +
