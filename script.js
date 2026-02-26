@@ -3,7 +3,7 @@
 /* ============================= */
 
 // Hora de inicio (México -6)
-const startTime = new Date("2026-02-27T14:20:00-06:00").getTime();
+const startTime = new Date("2026-02-27T14:12:00-06:00").getTime();
 
 // Hora de finalización
 const endTime = new Date("2026-02-26T14:50:00-06:00").getTime();
@@ -155,3 +155,4 @@ const timer = setInterval(function () {
 
 
 }, 1000);
+
