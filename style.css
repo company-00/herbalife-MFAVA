@@ -381,3 +381,13 @@ body > .promo-container {
     position: relative;
     z-index: 10; /* asegura que quede por encima de las plantas */
 }
+
+
+.modal-warning {
+    margin-top: 23px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    color: #b22222;
+    padding: 0px;
+    text-align: center;
+}

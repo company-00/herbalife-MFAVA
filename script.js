@@ -3,10 +3,10 @@
 /* ============================= */
 
 // Hora de inicio (México -6)
-const startTime = new Date("2026-02-27T18:00:00-06:00").getTime();
+const startTime = new Date("2026-03-06T18:00:00-06:00").getTime();
 
 // Hora de finalización
-const endTime = new Date("2026-02-27T22:00:00-06:00").getTime();
+const endTime = new Date("2026-03-06T22:00:00-06:00").getTime();
 
 // Número de WhatsApp (México sin +)
 const phoneNumber = "525539539196";
@@ -80,14 +80,6 @@ const timer = setInterval(function () {
                 hour: "2-digit",
                 minute: "2-digit"
             });
-
-        // 🔒 Botón desactivado
-        buttons.forEach(btn => {
-            btn.disabled = true;
-            btn.style.opacity = "0.6";
-            btn.innerText = "Disponible pronto";
-        });
-
         return;
     }
 
@@ -153,4 +145,3 @@ const timer = setInterval(function () {
 
 
 }, 1000);
-
